@@ -1,0 +1,51 @@
+<!--
+    *********** index.html  ************
+    Description: html file for UI and works with encryption and decryption operations
+    Author: Aveg Patekar
+    Version 1.0
+    -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Encryption</title>
+    <script type="text/javascript" src="jquery-1.9.1.js"></script>
+    <style type="text/css">
+        table {
+            background-color: #F0E68C;
+            /*width: 400px;*/      
+            margin-left:550px;  
+            margin-top: 30px;    
+            width: 250px; 
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <table border="0">
+        <tr>
+            <td>Message</td>
+            <td colspan="2">
+                <input type="text" id="txtMessage" />
+            </td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>
+                <button id="btnEncrypt">Encrypt</button>
+            </td>
+            <td>
+                <button id="btnDecrypt">Decrypt</button>
+            </td>
+        </tr>
+        <tr>
+            <td>Result</td>
+            <td colspan="2">
+                <input type="text" id="txtResult" />
+            </td>
+        </tr>
+    </table>
+    </div>    
+    <script src="index.js"></script>
+</body>
+</html>
